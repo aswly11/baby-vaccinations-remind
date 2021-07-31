@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1004, 633</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bunifuCustomLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bunifuCustomLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bunifuCustomLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuCustomLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bunifuCustomLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 201</value>
+  </data>
+  <data name="bunifuCustomLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 27</value>
+  </data>
+  <data name="bunifuCustomLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuCustomLabel2.Text" xml:space="preserve">
+    <value>we build tomorrow for the new generation</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.Name" xml:space="preserve">
+    <value>bunifuCustomLabel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.Parent" xml:space="preserve">
+    <value>splach_pnl</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuCustomLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bunifuCustomLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bunifuCustomLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bell MT, 27.75pt</value>
+  </data>
+  <data name="bunifuCustomLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bunifuCustomLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 74</value>
+  </data>
+  <data name="bunifuCustomLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 42</value>
+  </data>
+  <data name="bunifuCustomLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bunifuCustomLabel1.Text" xml:space="preserve">
+    <value>Baby Care</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel1.Name" xml:space="preserve">
+    <value>bunifuCustomLabel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel1.Parent" xml:space="preserve">
+    <value>splach_pnl</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 146</value>
+  </data>
+  <data name="bunifuProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 35</value>
+  </data>
+  <data name="bunifuProgressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;bunifuProgressBar1.Name" xml:space="preserve">
+    <value>bunifuProgressBar1</value>
+  </data>
+  <data name="&gt;&gt;bunifuProgressBar1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuProgressBar, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuProgressBar1.Parent" xml:space="preserve">
+    <value>splach_pnl</value>
+  </data>
+  <data name="&gt;&gt;bunifuProgressBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="splach_pnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 135</value>
+  </data>
+  <data name="splach_pnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 350</value>
+  </data>
+  <data name="splach_pnl.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;splach_pnl.Name" xml:space="preserve">
+    <value>splach_pnl</value>
+  </data>
+  <data name="&gt;&gt;splach_pnl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splach_pnl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splach_pnl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="error_txt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="error_txt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="error_txt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 11.25pt, style=Bold</value>
+  </data>
+  <data name="error_txt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="error_txt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 157</value>
+  </data>
+  <data name="error_txt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 21</value>
+  </data>
+  <data name="error_txt.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="error_txt.Text" xml:space="preserve">
+    <value>Please select language to continue</value>
+  </data>
+  <data name="&gt;&gt;error_txt.Name" xml:space="preserve">
+    <value>error_txt</value>
+  </data>
+  <data name="&gt;&gt;error_txt.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;error_txt.Parent" xml:space="preserve">
+    <value>lang_pnl</value>
+  </data>
+  <data name="&gt;&gt;error_txt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="add_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJEAAAAyCAYAAABcUDljAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANFSURBVHhe7ZxPSBRRHMfnj5mF2pZRW106duzYscw/g6zz
+        xsIoCIxOkhAEQRYUBh4CoUORB+mQlbrbmKvhoVMeo5PHoIPQIYr+sG1hVnuY3nd6m//e6K4rge73Ax/Y
+        w5vZw/vym9/MvHkGIYQQQgghhJANyUTbESMteqyUeGkl3WnTF5+McS+gG1fMIeYSYm7lHDtqtteRtIiZ
+        T8SAOSqyFYOtmZoeJ6jragp2dzYG8bPHgwPeMbqBxRxiLiHmtnIgkTHGvJyZEr6c+4MqBWvHTLq3rJSb
+        qb3anIufYWDKxf0n64Odl5sDe8TNoIAYUx1VKhJFIKuPlRSvqm86c/tO1Wv/iG5+ESYUEJmFN8Zke1yl
+        owBkCbOH3de7uhp/6U5My8895xsCmYn3MhuHVUpWQFYgBAgH6U5Gy1e0M/Zj9+OqfRIuYaxANMq9HQ2B
+        NSxmUGxUZBZj+t6dmhvOnO5gSvPGLjX9tkbc5yo2C5BNk5USWTRSugMpXWjFw9avy/oj3MahC9cdQOlS
+        6y42BbLovFDxkUx1VJmj3jfeytNitHxvdv62f6LNwVNK3UBKo9ze1zJrjHudYYZMX/TvuNasHUhplIsu
+        aXiZindhuoGURonbfdlLv8uHaIYPF2mxooc2n4ofYYjwg001XYvhcpIQ+UM3gNLVZIhoyTJEtGQZIlqy
+        DBEtWYaIlixDREt2PkRjXo5LQOha/BciPLrGI2zdIEqjROFBAQpDhI/W8M2RbiClUeJ7tfDjVSB/DMau
+        8C0+LU68tMfL+zBERlqc23a75btuIKVRVvc4OcMXvfkQxcxR8VM3kNIol62zxuIiLDLSDaZ0qVg6hCVE
+        Kj4KmSgkS3cApUvdei+BKuSp9MzDakQLUV+F8ky2x+0h8ZbbxdAosXix4pH7wXh24pBKjQZc1h60fuYT
+        bKqzsj/xxfbddpWWaOyU6yJI3I+I5kUFQoCsocQFFZMCkBUJW4nwSTZFD4RLWEEVaBn4Pj/pTm+5n8jw
+        a5DyE71x1d1ENmyiV+yBCiEtjuJE9rDIVve25FCd2DNtTjG3tdedAHtz/t3Ute20SsE6gTSOe93hLqN4
+        e4tlAHRTqea2L9wlmBBCCCGEEPK/MIw/yq/IUvK41EEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="add_btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="add_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 197</value>
+  </data>
+  <data name="add_btn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="add_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 50</value>
+  </data>
+  <data name="add_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;add_btn.Name" xml:space="preserve">
+    <value>add_btn</value>
+  </data>
+  <data name="&gt;&gt;add_btn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuThinButton2, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;add_btn.Parent" xml:space="preserve">
+    <value>lang_pnl</value>
+  </data>
+  <data name="&gt;&gt;add_btn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuCustomLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bunifuCustomLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bunifuCustomLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bell MT, 27.75pt</value>
+  </data>
+  <data name="bunifuCustomLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bunifuCustomLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="bunifuCustomLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 42</value>
+  </data>
+  <data name="bunifuCustomLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="bunifuCustomLabel3.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel3.Name" xml:space="preserve">
+    <value>bunifuCustomLabel3</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel3.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel3.Parent" xml:space="preserve">
+    <value>lang_pnl</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="arabic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="arabic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="arabic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="arabic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 19</value>
+  </data>
+  <data name="arabic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 24</value>
+  </data>
+  <data name="arabic.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="arabic.Text" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="&gt;&gt;arabic.Name" xml:space="preserve">
+    <value>arabic</value>
+  </data>
+  <data name="&gt;&gt;arabic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;arabic.Parent" xml:space="preserve">
+    <value>gender_pnl</value>
+  </data>
+  <data name="&gt;&gt;arabic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="english.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="english.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="english.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="english.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 19</value>
+  </data>
+  <data name="english.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="english.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="english.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;english.Name" xml:space="preserve">
+    <value>english</value>
+  </data>
+  <data name="&gt;&gt;english.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;english.Parent" xml:space="preserve">
+    <value>gender_pnl</value>
+  </data>
+  <data name="&gt;&gt;english.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gender_pnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 80</value>
+  </data>
+  <data name="gender_pnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 61</value>
+  </data>
+  <data name="gender_pnl.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;gender_pnl.Name" xml:space="preserve">
+    <value>gender_pnl</value>
+  </data>
+  <data name="&gt;&gt;gender_pnl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gender_pnl.Parent" xml:space="preserve">
+    <value>lang_pnl</value>
+  </data>
+  <data name="&gt;&gt;gender_pnl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lang_pnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 206</value>
+  </data>
+  <data name="lang_pnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 264</value>
+  </data>
+  <data name="lang_pnl.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;lang_pnl.Name" xml:space="preserve">
+    <value>lang_pnl</value>
+  </data>
+  <data name="&gt;&gt;lang_pnl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lang_pnl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lang_pnl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Name" xml:space="preserve">
+    <value>bunifuElipse1</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuElipse, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bunifuDragControl1.Name" xml:space="preserve">
+    <value>bunifuDragControl1</value>
+  </data>
+  <data name="&gt;&gt;bunifuDragControl1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuDragControl, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Splash_Screen</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>228, 17</value>
+  </metadata>
+</root>
